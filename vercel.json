@@ -4,9 +4,6 @@
       "NODE_ENV": "production"
     }
   },
-  "cleanUrls": true,
-  "rewrites": [],
-  "ignoreCommand": "echo 'skip'",
   "installCommand": "rm -rf node_modules && npm install",
   "buildCommand": "npx vite build"
-}  
+}
